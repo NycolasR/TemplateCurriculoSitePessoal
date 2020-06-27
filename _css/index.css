@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+section#principal {
+    display: block;
+    float: left;
+    width: 400px;
+}
+
+section#principal img#individuo {
+    width: 100%;
+    height: 100%;
+}
+
+aside#lateral {
+    display: block;
+    width: 575px;
+    float: right;
+}
+
+aside#lateral h1 {
+    font-size: 50pt;
+    margin-bottom: 0px;
+}
+aside#lateral h2 {
+    font-size: 20pt;
+    margin-top: 0px;
+    text-indent: 40px;
+}
+
+aside#lateral nav#botoes {
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-top: -40px;
+}
+
+aside#lateral nav#botoes ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+aside#lateral nav#botoes ul li {
+    display: inline-block;
+    border-radius: 500%;
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    padding: 20px;
+    font-size: 10pt;
+    transition: 0.7s;
+}
+
+aside#lateral nav#botoes ul li span.textoBotao {
+    position: relative;
+    top: 47px;
+}
+
+aside#lateral p {
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: -20px;
+}
+
+aside#lateral nav#botoes a {
+    color: white;
+}
+
+aside#lateral nav#botoes ul li#btn0 {
+    background-color: rgb(207, 61, 61);
+}
+aside#lateral nav#botoes ul li#btn0:hover {
+    background-color: rgb(121, 37, 37);;
+}
+
+aside#lateral nav#botoes ul li#btn1 {
+    background-color: rgb(149, 61, 207);
+}
+aside#lateral nav#botoes ul li#btn1:hover {
+    background-color: rgb(37, 16, 56);;
+}
+
+aside#lateral nav#botoes ul li#btn2 {
+    background-color: rgb(163, 207, 61);
+}
+aside#lateral nav#botoes ul li#btn2:hover {
+    background-color: rgb(88, 105, 26);;
+}

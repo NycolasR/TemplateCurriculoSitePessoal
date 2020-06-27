@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    background-color: rgba(143, 211, 250, 0.555);
+}
+
+div#interface {
+    width: 1000px;
+    margin: auto;
+    margin-top: -40px;
+    text-align: left;
+}
+
+#cabecalho {
+    color: rgb(48, 45, 45);
+    border-bottom: 1px solid #666666;
+    padding-left: 10px;
+}
+
+#cabecalho h1 {
+    font-size: 25pt;
+    padding-top: 50px;
+}
+#cabecalho h2 {
+    font-size: 12pt;
+    margin-top: -23px;
+    color: rgba(48, 45, 45, 0.63);
+}
+
+#menu {
+    display: block;
+}
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 700px;
+}
+#menu ul li {
+    display: inline;
+    padding: 10px;
+    margin: 2px;
+    transition: 0.7s;
+}
+#menu ul li:hover {
+    background-color: rgb(54, 113, 224);
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #666666;
+    transition: 0.7s;
+}
+#menu ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+footer#rodape {
+    background-color: rgb(54, 113, 224);
+    clear: both;
+}
+
+footer#rodape nav#contato {
+    display: block;
+}
+
+footer#rodape nav#contato ul {
+    list-style: none;
+}
+
+footer#rodape nav#contato ul li {
+    color: white;
+    transition: 0.7s;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+}
+
+footer#rodape nav#contato ul li h1 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+footer#rodape nav#contato ul li h2 {
+    font-size: 9pt;
+}
+
+footer#rodape nav#contato a {
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    transition: 0.7s;
+}
+
+footer#rodape nav#contato a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+li.bordaDireita {
+    border-right: 1px solid rgba(0, 0, 0, 0.692);
+}
