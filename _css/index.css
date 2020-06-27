@@ -48,11 +48,8 @@ aside#lateral nav#botoes ul li {
     padding: 20px;
     font-size: 10pt;
     transition: 0.7s;
-}
-
-aside#lateral nav#botoes ul li span.textoBotao {
-    position: relative;
-    top: 47px;
+    line-height: 120px;
+    text-align: center;
 }
 
 aside#lateral p {

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+section#corpo {
+    display: block;
+    float: left;
+    width: 700px;
+}
+
+aside#lateral {
+    display: block;
+    float: right;
+    width: 250px;
+}
