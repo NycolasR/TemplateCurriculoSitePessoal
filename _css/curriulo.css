@@ -6,8 +6,77 @@ section#corpo {
     width: 700px;
 }
 
+h1.titulo {
+    font-size: 60pt;
+    text-shadow: 1px 1px 4px black;
+}
+
+section.topico {
+    border-top: 1px solid rgb(45, 45, 45);
+    padding: 30px;
+}
+
+section#sessaoFormacao {
+    margin-bottom: 45px;
+}
+
+section.topico div.titulo {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(4, 207, 214);
+    display: block;
+    float: left;
+    margin: 20px;
+}
+
+section.topico div.titulo h2 {
+    font-size: 14pt;
+    letter-spacing: 1px;
+    position: relative;
+    top: 45px;
+}
+
+section.topico div.assunto h3 {
+    font-size: 20pt;
+}
+section.topico div.assunto p {
+    text-align: justify;
+    text-indent: 40px;
+    letter-spacing: 1px;
+}
+
 aside#lateral {
     display: block;
     float: right;
-    width: 250px;
+    text-align: left;
+    width: 240px;
+    box-shadow: 1px 1px 3px rgb(45, 45, 45);
+}
+
+aside#lateral div#aptidoes {
+    margin-bottom: -15px;
+}
+
+aside#lateral div.habilidades {
+    padding: 15px;
+}
+
+aside#lateral div.habilidades h1 {
+    font-size: 13pt;
+    border-bottom: 1px solid rgb(45, 45, 45);
+    padding-bottom: 13px;
+    box-shadow: 1px 1px 3px rgb(45, 45, 45);
+    padding: 5px;
+}
+
+aside#lateral div.habilidades ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+aside#lateral div.habilidades ul li {
+    padding-bottom: 4px;
+    font-size: 12pt;
 }

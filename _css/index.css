@@ -41,7 +41,7 @@ aside#lateral nav#botoes ul {
 
 aside#lateral nav#botoes ul li {
     display: inline-block;
-    border-radius: 500%;
+    border-radius: 50%;
     height: 120px;
     width: 120px;
     background-color: black;

@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-family: Verdana, Arial, sans-serif;
     background-color: rgba(143, 211, 250, 0.555);
+    color: rgb(45, 45, 45);
 }
 
 div#interface {
@@ -14,7 +15,6 @@ div#interface {
 }
 
 #cabecalho {
-    color: rgb(48, 45, 45);
     border-bottom: 1px solid #666666;
     padding-left: 10px;
 }
