@@ -58,6 +58,11 @@ div#interface {
     color: black;
 }
 
+h1.titulo {
+    font-size: 60pt;
+    text-shadow: 1px 1px 4px black;
+}
+
 footer#rodape {
     background-color: rgb(54, 113, 224);
     clear: both;

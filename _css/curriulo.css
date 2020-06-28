@@ -6,11 +6,6 @@ section#corpo {
     width: 700px;
 }
 
-h1.titulo {
-    font-size: 60pt;
-    text-shadow: 1px 1px 4px black;
-}
-
 section.topico {
     border-top: 1px solid rgb(45, 45, 45);
     padding: 30px;
