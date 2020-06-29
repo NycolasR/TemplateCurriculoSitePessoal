@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+section#corpo {
+    height: 450px;
+    width: 900px;
+    margin: auto;
+}
+
+section#corpo div#corpoForm {
+    width: 500px;
+    display: block;
+    float: left;
+}
+
+legend {
+    color: rgb(45, 45, 45);
+    font-size: 15pt;
+}
+
+form#form input {
+    width: 250px;
+    height: 30px;
+}
+
+form#form textarea {
+    width: 250px;
+    height: 150px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+form#form input#btnEnviar {
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+div#paraContato {
+    width: 390px;
+    display: block;
+    float: right;
+    padding-top: 150px;
+}
+
+div#paraContato {
+    font-size: 11pt;
+}
+
+span.bold {
+    font-weight: bold;
+}
